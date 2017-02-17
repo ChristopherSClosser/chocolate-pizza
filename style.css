@@ -11,6 +11,13 @@ header{
   height: 100px;
   border: 1px solid black;
 }
+#img-break{
+  width: 85%;
+  height: 10px;
+  margin: auto;
+  margin-top: 25px;
+  background-image: url(assets/bar.jpg);
+}
 #main-pic{
   /*background-image: url(assets/choco-pizza.png);*/
   width: 100%;
@@ -28,9 +35,10 @@ img {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
-  border: 1px solid black;
+  border: 1px solid darkgrey;
   height: 200px;
   background-image: url(assets/list-bg.png);
+  box-shadow: 3px 4px 9px 2px #888888;
 }
 #first{
   float: left;
