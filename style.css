@@ -117,3 +117,53 @@ h1{
   float: right;
   text-align: left;
 }
+.pre-foot{
+  width: 85%;
+  margin: auto;
+}
+#pre-foot::first-line{
+  font-weight: bold;
+  font-size: 18px;
+}
+#pre-foot{
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.button{
+  float: right;
+  margin-top: 2%;
+  background-color: #bc7058;
+  height: 35px;
+  color: white;
+  width: 148px;
+  padding-top: 2%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+#van{
+  float: left;
+  margin-right: 2%;
+  height: 88px;
+}
+#foot{
+  margin-top: 5%;
+  color: #635656;
+  font-size: 11px;
+}
+#foot-logo{
+  margin-top: -20px;
+}
+.post-pre-foot{
+  border: 1px solid;
+  height: 0px;
+  border-color: grey;
+  width: 85%;
+  margin: auto;
+}
